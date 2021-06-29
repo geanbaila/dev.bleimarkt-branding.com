@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body{
+    font-family: "Raleway";
+    font-size: .875rem;
+}
+
+
+
+#card-uberuns{
+    background-color: #A9CEA2 !important;
+}
+@media (min-width: 1020px) {
+    #card-uberuns{
+        position: absolute !important;
+        margin: -520px 40px 0px 580px !important;
+    }
+    .downCard{
+        /*background-color: gray !important;*/
+        margin: 100px 0px !important;
+    }
+}
+ 
+#card-uberuns .card-title{
+    color: #8b8172;
+    font-weight: 600;
+    font-size: 2.5em;
+}
+
+#card-uberuns .card-text{
+    color: #FFFFFF;
+}
+ 
+#sidebarMenu{
+    background-color: #A9CEA2;
+    border: 3px solid#A9CEA2 ;
+}
+
+#headerMenu{
+    width: 100%;
+    box-shadow: 0 .3rem rgba(0,0,0,.15) !important;
+}
+
+.card-philosopie{
+    background-color: #F4F4F4;
+}
+
+.card-philosopie p{
+    color: #8b8172;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.card-saulen{
+    background-color: #908272;    
+}
+.card-saulen figcaption{
+    color: #FFFFFF ;
+}
+
+.ean-rounded{
+    border-radius: 0px 20px 20px 20px;
+}
+
+.ean-card{
+    background-color: #f4f4f4;
+    width: 100%;
+}
+.ean-card img{
+    margin: -120px 0px 0px 60px;
+    width: 240px;
+    height: 240px;
+}
+.ean-title-primary-color{
+    color: #6b7569;
+    font-size: 2.5em;
+    font-weight: 600;
+    margin: 20px;
+}
+.ean-title-secondary-color{
+    color: #8b8172;
+    font-size: 2.5em;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.ean-p-primary-color{
+    color: #A9CEA2;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+.ean-p-secondary-color{
+    color: #8b8172;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+
+.mycard{
+    height: 100%;
+    min-height: 250px;
+    /*border: 2px solid #A9CEA2;*/
+    margin: 60px 0px;
+}
+.mycard .card{
+    border-radius: 0px 20px 20px 20px;
+    background-color: #F4F4F4;
+}
+.mycard img{
+    margin-top: -80px;
+    width: 200px;
+    height: 200px;
+}
