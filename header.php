@@ -3,7 +3,7 @@
         <button class="navbar-toggler position-absolute d-md-none collapsed" style="z-index: 9999;margin: 0px 5px;"
             type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu"
             aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon" data-feather="align-justify">&nbsp;</span>
+            <span class="navbar-toggler-icon" >&nbsp;</span>
         </button>
         <div id="headerMenu" class="bg-light shadow">
             <ul class="nav justify-content-end d-flex align-items-end">

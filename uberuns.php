@@ -12,8 +12,8 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     -->
     <!-- Custom styles for this template -->
-    <link href="assets/css/bootstrap.css?v=1" rel="stylesheet" />
-    <link href="assets/css/main.css?v=1" rel="stylesheet" />
+    <link href="assets/css/bootstrap.css?v=2" rel="stylesheet" />
+    <link href="assets/css/main.css?v=2" rel="stylesheet" />
 </head>
 <body>
 
@@ -40,10 +40,7 @@
                                 <h5 class="card-title text-secondary fs-2 fw-bold">Über Uns</h5>
                                 <p class="card-text text-white">Quis cillum id cupidatat et laborum. Cupidatat culpa qui cillum
                                     cupidatat
-                                    amet nostrud veniam mollit ullamco sit. Laboris quis sunt commodo consectetur
-                                    commodo.
-                                    Do
-                                    ullamco eu id id veniam Lorem est pariatur in id cillum consequat minim. Sunt anim
+                                    amet nostrud veniam mollit ullamco sit. Sunt anim
                                     in
                                     pariatur laboris amet dolor nostrud mollit officia aute. Eu et ea consequat qui
                                     labore
@@ -112,7 +109,7 @@
                     <br />
                     <div class="container">
                         <div class="row justify-content-md-center">
-                            <div class="col-md-4 p-3 mycard">
+                            <div class="col-sm-12 col-lg-4 p-3 mycard">
                                 <div class="card text-center">
                                     <img src="assets/img/memberteam.png" class="mx-auto d-block" alt="The Team Bauer" />
                                     <div class="card-body">
@@ -122,7 +119,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 p-3 mycard downCard">
+                            <div class="col-sm-12 col-lg-4 p-3 mycard downCard">
                                 <div class="card text-center">
                                     <img src="assets/img/memberteam.png" class="mx-auto d-block" alt="The Team Bauer" />
                                     <div class="card-body">
@@ -132,7 +129,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 p-3 mycard">
+                            <div class="col-sm-12 col-lg-4 p-3 mycard">
                                 <div class="card text-center">
                                     <img src="assets/img/memberteam.png" class="mx-auto d-block" alt="The Team Bauer" />
                                     <div class="card-body">

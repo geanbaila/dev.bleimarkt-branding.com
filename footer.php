@@ -4,14 +4,14 @@
                         <div class="col-6 text-secondary">&nbsp;</div>
                     </div>
                     <div class="row">
-                        <div class="col-8">
+                        <div class="col-sm-12 col-lg-8">
                             <h4 class="text-primary fw-bold">Kontakt</h4>
                             <div class="row text-secondary">
                                 <div class="col-6">
                                     <p>Dane Bauer</p>
                                 </div>
                                 <div class="col-6">
-                                    <p mailto="dergartenbauer@info.de">dergartenbauer@info.de</p>
+                                    <a href="mailto:dergartenbauer@info.de" class="text-secondary text-break">dergartenbauer@info.de</a>
                                 </div>
                             </div>
                             <div class="row text-secondary">
@@ -23,7 +23,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-sm-12 col-lg-4">
                             <h4 class="text-primary fw-bold">Flogen Sie uns</h4>
                             <div class="row">
                                 <div class="col p-3">

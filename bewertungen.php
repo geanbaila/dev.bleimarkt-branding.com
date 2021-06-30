@@ -34,15 +34,20 @@
                         for($i=0; $i<5; $i++):
                         ?>
                         <div class="row">
-                            <div class="card mb-6 ean-rounded shadow" style="padding:20px;margin-bottom:20px;">
+                            <div class="card mb-6" 
+                            style="padding:20px;margin-bottom:20px;border:1px solid #A9CEA2;border-radius: 0px 20px 20px 20px;
+                            -webkit-box-shadow: 0 0.5rem 1rem rgba(169, 206, 162, 0.15) !important;
+                            box-shadow: 0 0.5rem 1rem rgba(169, 206, 162, 0.15) !important;
+
+">
                                 <div class="row g-0">
                                     <div class="col-md-2">
                                     <img src="assets/img/client.png" class="img-fluid rounded-start" alt="picture">
                                     </div>
                                     <div class="col-md-10">
                                     <div class="card-body">
-                                        <h5 class="card-title text-secondary">Nerida Gallegos</h5>
-                                        <p class="card-text text-primary">Laim, Munchen</p>
+                                        <h5 class="card-title text-secondary fs-5 fw-bold">Nerida Gallegos</h5>
+                                        <p class="card-text text-primary fs-6 fw-bold">Laim, Munchen</p>
                                         <p class="card-text">Very proffesional work, punctual and very nice, I will recomend many times and fo my own future works in my house and projects.</p>
                                     </div>
                                     </div>
@@ -56,6 +61,10 @@
                 </main>
                 
                 <footer class="footer">
+                    <div class="row">
+                        <div class="col-6 text-primary">&nbsp;</div>
+                        <div class="col-6 text-secondary">&nbsp;</div>
+                    </div>
                     <div class="row bg-secondary text-white" >
                         <div class="col p-3 align-self-center text-center">
                             <span class="fs-6 align-middle">&copy; Bleimarkt | Nerida Gallegos | +51 959759632

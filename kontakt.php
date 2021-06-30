@@ -71,6 +71,10 @@
                 </main>
                 
                 <footer class="footer">
+                    <div class="row">
+                        <div class="col-6 text-primary">&nbsp;</div>
+                        <div class="col-6 text-secondary">&nbsp;</div>
+                    </div>
                     <div class="row bg-secondary text-white" >
                         <div class="col p-3 align-self-center text-center">
                             <span class="fs-6 align-middle">&copy; Bleimarkt | Nerida Gallegos | +51 959759632
