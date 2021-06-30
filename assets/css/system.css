@@ -4,7 +4,26 @@ body{
     font-size: .875rem;
 }
 
-
+#headerMenu{
+    width: 100%;
+    box-shadow: 0 .3rem rgba(0,0,0,.15) !important;
+}
+#headerMenu ul li{
+    border-top: 2px solid #A9CEA2;
+}
+#headerMenu ul li:hover, #headerMenu ul li.active{
+    border-top: 6px solid #A9CEA2;
+}
+#headerMenu ul{
+    padding-top: 20px;
+    margin-bottom: 10px;
+    height: 60px;
+}
+ 
+#sidebarMenu{
+    background-color: #A9CEA2;
+    border: 3px solid#A9CEA2 ;
+}
 
 #card-uberuns{
     background-color: #A9CEA2 !important;
@@ -19,25 +38,13 @@ body{
         margin: 100px 0px !important;
     }
 }
- 
 #card-uberuns .card-title{
     color: #8b8172;
     font-weight: 600;
     font-size: 2.5em;
 }
-
 #card-uberuns .card-text{
     color: #FFFFFF;
-}
- 
-#sidebarMenu{
-    background-color: #A9CEA2;
-    border: 3px solid#A9CEA2 ;
-}
-
-#headerMenu{
-    width: 100%;
-    box-shadow: 0 .3rem rgba(0,0,0,.15) !important;
 }
 
 .card-philosopie{
@@ -109,4 +116,19 @@ body{
     margin-top: -80px;
     width: 200px;
     height: 200px;
+}
+
+
+.footer .row:first-child{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.footer .row:first-child div:first-child{
+    border-top:1px solid red !important;
+}
+.footer .row:first-child div:last-child{
+    border-top:1px solid blue !important;
+}
+.footer > .row:nth-child(3){
+    margin-top: 20px;
 }
