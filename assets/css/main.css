@@ -19,14 +19,21 @@ body{
     margin-bottom: 10px;
     height: 60px;
 }
+.header-menu{
+  display: none;
+}
 @media (max-width: 700px) {
   #headerMenu{
     display: none;
+  }
+  .header-menu{
+    display: block;
   }
 }
  
 #sidebarMenu{
     border: 3px solid#A9CEA2 ;
+    overflow-y: auto;
 }
 
 @media (min-width: 1020px) {
@@ -105,8 +112,17 @@ body{
 
 
 
+.menu2{
+  width: auto;
+  height:180px;
+  background-size: cover;
+  background-image: url(../img/capa21.png);
+}
 
-
+.menu2 div:last-child li>a{
+  border-bottom:2px solid #A9CEA2;
+  
+}
 
 
 

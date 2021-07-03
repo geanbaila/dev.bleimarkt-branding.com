@@ -12,8 +12,8 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     -->
     <!-- Custom styles for this template -->
-    <link href="assets/css/bootstrap.css?v=2" rel="stylesheet" />
-    <link href="assets/css/main.css?v=2" rel="stylesheet" />
+    <link href="assets/css/bootstrap.css?v=1" rel="stylesheet" />
+    <link href="assets/css/main.css?v=1" rel="stylesheet" />
 </head>
 <body>
 
