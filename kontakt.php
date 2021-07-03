@@ -8,13 +8,8 @@
     <meta name="author" content="">
     <meta name="generator" content="">
     <title>Der Garten Bauer</title>
-    <!-- Bootstrap CSS 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    -->
-    <!-- Custom styles for this template -->
-    <link href="assets/css/bootstrap.css?v=2" rel="stylesheet" />
-    <link href="assets/css/main.css?v=2" rel="stylesheet" />
+    <link href="assets/css/bootstrap.css?v=3" rel="stylesheet" />
+    <link href="assets/css/main.css?v=3" rel="stylesheet" />
 </head>
 
 <body>
@@ -25,12 +20,11 @@
         <div class="row">
             <?php include("nav.php");?>
             <div class="col-md-9 col-lg-10 ms-sm-auto d-md-block">
-                <!--me-0 px-3 
-                -->
+                
                 <main>
                 <br />
                     <div class="row section-contact">
-                            <div class="col-8">
+                            <div class="col-sm-12 col-lg-8">
                                 <h4 class="text-primary fw-bold">Kontakt</h4>
                                 <div class="row text-secondary">
                                     <div class="col-6">
@@ -49,7 +43,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-sm-12 col-lg-4">
                                 <h4 class="text-primary fw-bold">Flogen Sie uns</h4>
                                 <div class="row">
                                     <div class="col p-3">

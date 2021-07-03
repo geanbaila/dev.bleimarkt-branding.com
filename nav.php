@@ -34,17 +34,17 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-secondary" href="#">
+                            <a class="nav-link text-secondary" href="assets/file/brochure.pdf" target="_blank">
                                 Wir stellen ein
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-secondary" href="#">
+                            <a class="nav-link text-secondary" href="assets/file/brochure.pdf" target="_blank">
                                 Datenschutzerklärung
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-secondary" href="#">
+                            <a class="nav-link text-secondary" href="assets/file/brochure.pdf" target="_blank">
                                 Impresum
                             </a>
                         </li>

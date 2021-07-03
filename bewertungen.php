@@ -8,13 +8,8 @@
     <meta name="author" content="">
     <meta name="generator" content="">
     <title>Der Garten Bauer</title>
-    <!-- Bootstrap CSS 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    -->
-    <!-- Custom styles for this template -->
-    <link href="assets/css/bootstrap.css?v=2" rel="stylesheet" />
-    <link href="assets/css/main.css?v=2" rel="stylesheet" />
+    <link href="assets/css/bootstrap.css?v=1" rel="stylesheet" />
+    <link href="assets/css/main.css?v=3" rel="stylesheet" />
 </head>
 
 <body>
@@ -60,18 +55,7 @@
                     </div>
                 </main>
                 
-                <footer class="footer">
-                    <div class="row">
-                        <div class="col-6 text-primary">&nbsp;</div>
-                        <div class="col-6 text-secondary">&nbsp;</div>
-                    </div>
-                    <div class="row bg-secondary text-white" >
-                        <div class="col p-3 align-self-center text-center">
-                            <span class="fs-6 align-middle">&copy; Bleimarkt | Nerida Gallegos | +51 959759632
-                                (WhatsApp)</span>
-                        </div>
-                    </div>
-                </footer>
+                <?php include("footer.php");?>
             </div>
         </div>
     </div>
