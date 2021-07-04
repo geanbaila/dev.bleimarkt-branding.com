@@ -25,7 +25,7 @@
                 <main>
                     <br />
                     <div class="container">
-                        
+                        <!--
                         <br/>
                         <div class="accordion">
                             <div class="accordion-item">
@@ -54,11 +54,12 @@
                                 </div>
                                 <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
                                 <div class="accordion-body">
-                                    <?php include("nodo.php"); ?>
+                                    <?php //include("nodo.php"); ?>
                                 </div>
                                 </div>
                             </div>
                         </div>
+                        -->
                         
                         <?php for($i=1;$i<5;$i++):?>
                             <br/>

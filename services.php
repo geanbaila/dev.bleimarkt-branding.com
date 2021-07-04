@@ -73,59 +73,74 @@
                             <img src="img/2.jpg" class="img-fluid mx-auto d-block">
                         </div>
                     </div>
-                    <br/>
-                    <div class="row gx-3" id="Natursteinarbeiten">
-                        <div class="col-lg-6 align-self-center px-4 ">
-                            <h2 class="text-primary p-3">Natursteinarbeiten</h2>
-                            <p class="p-3">Minim qui mollit sunt mollit. Fugiat laborum veniam ad sint dolore aliquip. Officia duis exercitation amet fugiat proident eu. Id nulla veniam dolor officia sit enim culpa ullamco. Enim laboris enim ut minim qui quis est. Irure culpa non incididunt nulla consectetur non ullamco nisi adipisicing proident sint veniam et.</p>
-                        </div>
-                        <div class="col-lg-6  d-none d-lg-block align-self-center ">
-                            <img src="img/3.jpg" class="img-fluid mx-auto d-block">
-                        </div>
-                        <div class="col-lg-6 d-lg-none align-self-center">
-                            <img src="img/2.jpg" class="img-fluid mx-auto d-block">
-                        </div>
-                    </div>
-                    <br/>
-                    <div class="row gx-3" id="Neupflanzungen">
-                        <div class="col-lg-6 d-none d-lg-block align-self-center ">
-                            <img src="img/3.jpg" class="img-fluid mx-auto d-block">
-                        </div>
-                        <div class="col-lg-6 align-self-center px-5 ">
-                            <h2 class="text-primary p-3">Neupflanzungen</h2>
-                            <p class="p-3">Minim qui mollit sunt mollit. Fugiat laborum veniam ad sint dolore aliquip. Officia duis exercitation amet fugiat proident eu. Id nulla veniam dolor officia sit enim culpa ullamco. Enim laboris enim ut minim qui quis est. Irure culpa non incididunt nulla consectetur non ullamco nisi adipisicing proident sint veniam et.</p>
-                        </div>
-                        <div class="col-lg-6 d-lg-none align-self-center">
-                            <img src="img/2.jpg" class="img-fluid mx-auto d-block">
+                    <div  id="Natursteinarbeiten">
+                        <br/>
+                        <br/>
+                        <br/>
+                        <div class="row gx-3">
+                            <div class="col-lg-6 align-self-center px-4 ">
+                                <h2 class="text-primary p-3">Natursteinarbeiten</h2>
+                                <p class="p-3">Minim qui mollit sunt mollit. Fugiat laborum veniam ad sint dolore aliquip. Officia duis exercitation amet fugiat proident eu. Id nulla veniam dolor officia sit enim culpa ullamco. Enim laboris enim ut minim qui quis est. Irure culpa non incididunt nulla consectetur non ullamco nisi adipisicing proident sint veniam et.</p>
+                            </div>
+                            <div class="col-lg-6  d-none d-lg-block align-self-center ">
+                                <img src="img/3.jpg" class="img-fluid mx-auto d-block">
+                            </div>
+                            <div class="col-lg-6 d-lg-none align-self-center">
+                                <img src="img/2.jpg" class="img-fluid mx-auto d-block">
+                            </div>
                         </div>
                     </div>
-                    <br/>
-                    <div class="row gx-3" id="Gartenpflege">
-                        <div class="col-lg-6 align-self-center px-4 ">
-                            <h2 class="text-primary p-3">Gartenpflege</h2>
-                            <p class="p-3">Minim qui mollit sunt mollit. Fugiat laborum veniam ad sint dolore aliquip. Officia duis exercitation amet fugiat proident eu. Id nulla veniam dolor officia sit enim culpa ullamco. Enim laboris enim ut minim qui quis est. Irure culpa non incididunt nulla consectetur non ullamco nisi adipisicing proident sint veniam et.</p>
-                        </div>
-                        <div class="col-lg-6  d-none d-lg-block align-self-center ">
-                            <img src="img/3.jpg" class="img-fluid mx-auto d-block">
-                        </div>
-                        <div class="col-lg-6 d-lg-none align-self-center">
-                            <img src="img/2.jpg" class="img-fluid mx-auto d-block">
+                    <div id="Neupflanzungen">
+                        <br/>
+                        <br/>
+                        <br/>
+                        <div class="row gx-3">
+                            <div class="col-lg-6 d-none d-lg-block align-self-center ">
+                                <img src="img/3.jpg" class="img-fluid mx-auto d-block">
+                            </div>
+                            <div class="col-lg-6 align-self-center px-5 ">
+                                <h2 class="text-primary p-3">Neupflanzungen</h2>
+                                <p class="p-3">Minim qui mollit sunt mollit. Fugiat laborum veniam ad sint dolore aliquip. Officia duis exercitation amet fugiat proident eu. Id nulla veniam dolor officia sit enim culpa ullamco. Enim laboris enim ut minim qui quis est. Irure culpa non incididunt nulla consectetur non ullamco nisi adipisicing proident sint veniam et.</p>
+                            </div>
+                            <div class="col-lg-6 d-lg-none align-self-center">
+                                <img src="img/2.jpg" class="img-fluid mx-auto d-block">
+                            </div>
                         </div>
                     </div>
-                    <br/>
-                    <div class="row gx-3" id="Baumpflege">
-                        <div class="col-lg-6 d-none d-lg-block align-self-center ">
-                            <img src="img/3.jpg" class="img-fluid mx-auto d-block">
+                    <div id="Gartenpflege">
+                        <br/>
+                        <br/>
+                        <br/>
+                        <div class="row gx-3" id="Gartenpflege">
+                            <div class="col-lg-6 align-self-center px-4 ">
+                                <h2 class="text-primary p-3">Gartenpflege</h2>
+                                <p class="p-3">Minim qui mollit sunt mollit. Fugiat laborum veniam ad sint dolore aliquip. Officia duis exercitation amet fugiat proident eu. Id nulla veniam dolor officia sit enim culpa ullamco. Enim laboris enim ut minim qui quis est. Irure culpa non incididunt nulla consectetur non ullamco nisi adipisicing proident sint veniam et.</p>
+                            </div>
+                            <div class="col-lg-6  d-none d-lg-block align-self-center ">
+                                <img src="img/3.jpg" class="img-fluid mx-auto d-block">
+                            </div>
+                            <div class="col-lg-6 d-lg-none align-self-center">
+                                <img src="img/2.jpg" class="img-fluid mx-auto d-block">
+                            </div>
                         </div>
-                        <div class="col-lg-6 align-self-center px-5 ">
-                            <h2 class="text-primary p-3">Baumpflege</h2>
-                            <p class="p-3">Minim qui mollit sunt mollit. Fugiat laborum veniam ad sint dolore aliquip. Officia duis exercitation amet fugiat proident eu. Id nulla veniam dolor officia sit enim culpa ullamco. Enim laboris enim ut minim qui quis est. Irure culpa non incididunt nulla consectetur non ullamco nisi adipisicing proident sint veniam et.</p>
-                        </div>
-                        <div class="col-lg-6 d-lg-none align-self-center">
-                            <img src="img/2.jpg" class="img-fluid mx-auto d-block">
-                        </div>
-                    </div> 
-                    
+                    </div>
+                    <div  id="Baumpflege">
+                        <br/>
+                        <br/>
+                        <br/>
+                        <div class="row gx-3" id="Baumpflege">
+                            <div class="col-lg-6 d-none d-lg-block align-self-center ">
+                                <img src="img/3.jpg" class="img-fluid mx-auto d-block">
+                            </div>
+                            <div class="col-lg-6 align-self-center px-5 ">
+                                <h2 class="text-primary p-3">Baumpflege</h2>
+                                <p class="p-3">Minim qui mollit sunt mollit. Fugiat laborum veniam ad sint dolore aliquip. Officia duis exercitation amet fugiat proident eu. Id nulla veniam dolor officia sit enim culpa ullamco. Enim laboris enim ut minim qui quis est. Irure culpa non incididunt nulla consectetur non ullamco nisi adipisicing proident sint veniam et.</p>
+                            </div>
+                            <div class="col-lg-6 d-lg-none align-self-center">
+                                <img src="img/2.jpg" class="img-fluid mx-auto d-block">
+                            </div>
+                        </div> 
+                    </div>
                 </main>
                 <?php include("footer.php");?>
             </div>

@@ -11,15 +11,11 @@
     <link href="assets/css/main.css?v=3" rel="stylesheet" />
 </head>
 <body>
-
     <?php include("header.php");?>
-
     <div class="container-fluid">
         <div class="row">
             <?php include("nav.php");?>
             <div class="col-md-9 col-lg-10 ms-sm-auto d-md-block">
-                <!--me-0 px-3 
-                -->
                 <main>
                     <div class="container">
                         <br />
@@ -30,7 +26,7 @@
                         <br />
                         <br />
                         <br />
-                        <div id="card-uberuns" class="card ean-rounded shadow bg-primary">
+                        <div id="card-uberuns" class="card ean-rounded shadow bg-primary d-none d-lg-block">
                             <div class="card-body">
                                 <h5 class="card-title text-secondary fs-2 fw-bold">Über Uns</h5>
                                 <p class="card-text text-white">Quis cillum id cupidatat et laborum. Cupidatat culpa qui cillum
@@ -47,14 +43,38 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row gy-2 card-philosopie">
+                    <div class="row gy-3 d-lg-none bg-primary">
+                        <div class="container">
+                            <div class="row gy-3 align-items-center">
+                                <div class="col-md-12 col-lg-3">
+                                    <h5 class="text-secondary px-4 fs-2 fw-bold ">Über Uns</h5>
+                                </div>
+                                <div class="col-md-12 col-lg-9">
+                                    <p class="text-secondary px-4 fs-6 fw-bold">Quis cillum id cupidatat et laborum. Cupidatat culpa qui cillum
+                                    cupidatat
+                                    amet nostrud veniam mollit ullamco sit. Sunt anim
+                                    in
+                                    pariatur laboris amet dolor nostrud mollit officia aute. Eu et ea consequat qui
+                                    labore
+                                    ea
+                                    pariatur sit fugiat duis voluptate.</p>
+                                    <p class="text-secondary px-4 fs-6 fw-bold">Quis cillum id cupidatat et laborum. Cupidatat culpa qui cillum
+                                    cupidatat
+                                    amet nostrud veniam mollit ullamco sit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+                    <br />
+                    <div class="row gy-3 card-philosopie">
                         <div class="container">
                             <div class="row gy-3 align-items-center">
                                 <div class="col-md-12 col-lg-3">
                                     <h5 class="text-secondary px-4 fs-2 fw-bold ">Philosopie</h5>
                                 </div>
                                 <div class="col-md-12 col-lg-9">
-                                    <p class="text-secondary px-20 fs-6 fw-bold">Wir von derGartenBauer stehen mit Begeisterung dafúr, die Nathur wieder in Ihren
+                                    <p class="text-secondary px-4 fs-6 fw-bold">Wir von derGartenBauer stehen mit Begeisterung dafúr, die Nathur wieder in Ihren
                                         Gárten
                                         erblúhen zu lassen. Durch den
                                         bewussten Einsatz von regionalen Produkten bieten wir ein nachhaltiges
@@ -64,7 +84,6 @@
                             </div>
                         </div>
                     </div>
-                    <br />
                     <br />
                     <br />
                     <div class="row gy-3 bg-secondary">
@@ -155,7 +174,6 @@
             </div>
         </div>
     </div>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
