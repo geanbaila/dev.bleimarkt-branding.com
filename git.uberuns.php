@@ -8,8 +8,7 @@
     <meta name="generator" content="">
     <title>Der Garten Bauer</title>
     <link href="assets/css/bootstrap.css?v=3" rel="stylesheet" />
-    <link href="assets/css/main.css?v=abc" rel="stylesheet" />
-
+    <link href="assets/css/main.css?v=gean" rel="stylesheet" />
 </head>
 <body>
     <?php include("header.php");?>
@@ -17,8 +16,9 @@
         <div class="row">
             <?php include("nav.php");?>
             <div class="col-md-9 col-lg-10 ms-sm-auto d-md-block">
-                <div class="main">
+                <main>
                     <div class="container">
+                        <br />
                         <figure class="figure">
                             <img src="assets/img/capa12.png" class="figure-img img-fluid ean-rounded" alt="uber uns"
                                 title="Der Garten Bauer - uber uns" />
@@ -26,13 +26,20 @@
                         <br />
                         <br />
                         <br />
-                        <div id="card-uberuns" class="card ean-rounded bg-primary d-none d-lg-block">
+                        <div id="card-uberuns" class="card ean-rounded shadow bg-primary d-none d-lg-block">
                             <div class="card-body">
-                                <h5 class="card-title text-secondary fw-bold">Über uns</h5>
-                                <div class="card-text">
-                                    <p class="text-white">Seit der Gründung im Jahr 2017, sind wir als junges und dynamisches Unternehmen im Garten- und Landschaftsbau tätig. Die Erfüllung Ihrer individuellen Wünsche liegt und besonders am Herzen, wobei wir stets auf eine ressourcenschonenden und umweltorientierte Arbeitsweise achten.</p>
-                                    <p class="text-white">Zuverlässig und detailorientiert erfüllen wir Ihre Gartenträume, von der Gartenpflege bis zu Natursteinarbeiten. Unser Einzugsgebiet umfasst die Region um das Würmtal und den Raum München.</p>
-                                </div>
+                                <h5 class="card-title text-secondary fs-2 fw-bold">Über Uns</h5>
+                                <p class="card-text text-white">Quis cillum id cupidatat et laborum. Cupidatat culpa qui cillum
+                                    cupidatat
+                                    amet nostrud veniam mollit ullamco sit. Sunt anim
+                                    in
+                                    pariatur laboris amet dolor nostrud mollit officia aute. Eu et ea consequat qui
+                                    labore
+                                    ea
+                                    pariatur sit fugiat duis voluptate.</p>
+                                <p class="card-text text-white">Quis cillum id cupidatat et laborum. Cupidatat culpa qui cillum
+                                    cupidatat
+                                    amet nostrud veniam mollit ullamco sit.</p>
                             </div>
                         </div>
                     </div>
@@ -162,7 +169,7 @@
                             </div>
                         </div>
                     </div>
-                </div><!-- end main -->
+                </main>
                 <?php include("footer.php");?>
             </div>
         </div>
