@@ -8,7 +8,8 @@
     <meta name="generator" content="">
     <title>Der Garten Bauer</title>
     <link href="assets/css/bootstrap.css?v=3" rel="stylesheet" />
-    <link href="assets/css/main.css?v=abc" rel="stylesheet" />
+    <link href="assets/css/menu.css?v=1" rel="stylesheet" />
+    <link href="assets/css/main.css?v=1" rel="stylesheet" />
 
 </head>
 <body>
@@ -16,16 +17,13 @@
     <div class="container-fluid">
         <div class="row">
             <?php include("nav.php");?>
-            <div class="col-md-9 col-lg-10 ms-sm-auto d-md-block">
+            <div class="col-12">
                 <div class="main">
                     <div class="container">
                         <figure class="figure">
                             <img src="assets/img/capa12.png" class="figure-img img-fluid ean-rounded" alt="uber uns"
                                 title="Der Garten Bauer - uber uns" />
                         </figure>
-                        <br />
-                        <br />
-                        <br />
                         <div id="card-uberuns" class="card ean-rounded bg-primary d-none d-lg-block">
                             <div class="card-body">
                                 <h5 class="card-title text-secondary fw-bold">Über uns</h5>
@@ -36,6 +34,7 @@
                             </div>
                         </div>
                     </div>
+                    <!--
                     <div class="row gy-3 d-lg-none bg-primary">
                         <div class="container">
                             <div class="row gy-3 align-items-center">
@@ -58,62 +57,61 @@
                             </div>
                         </div>
                     </div>
-                    <br />
-                    <br />
-                    <div class="row gy-3 card-philosopie">
-                        <div class="container">
-                            <div class="row gy-3 align-items-center">
-                                <div class="col-md-12 col-lg-3">
-                                    <h5 class="text-secondary px-4 fs-2 fw-bold ">Philosopie</h5>
-                                </div>
-                                <div class="col-md-12 col-lg-9">
-                                    <p class="text-secondary px-4 fs-6 fw-bold">Wir von derGartenBauer stehen mit Begeisterung dafúr, die Nathur wieder in Ihren
-                                        Gárten
-                                        erblúhen zu lassen. Durch den
-                                        bewussten Einsatz von regionalen Produkten bieten wir ein nachhaltiges
-                                        Gartenbaukonzept
-                                        von hóchster Qualitát.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <br />
-                    <br />
-                    <div class="row gy-3 bg-secondary">
-                        <div class="col-2">
-                            &nbsp;
-                        </div>
-                        <div class="col-8 justify-content-md-center">
+                    -->
+                </div>    
+                <div class="main main-philosopie">
+                    <div class="container container-card-philosopie">
+                        <div class="row card-philosopie">
                             <div class="row">
-                                <div class="col-xs-12 col-sm-4 text-center">
-                                    <figure class="figure">
-                                        <img src="assets/img/naturbelassen.png" class="figure-img img-fluid" alt="...">
-                                        <figcaption class="figure-caption fs-6 text-white">Naturbelassen</figcaption>
-                                    </figure>
+                                <div class="col-md-12 col-lg-2">
+                                    <h5 class="card-title text-secondary fw-bold">Philosophie</h5>
                                 </div>
-                                <div class="col-xs-12 col-sm-4 text-center">
-                                    <figure class="figure ">
-                                        <img src="assets/img/prozessorientliert.png" class="figure-img img-fluid"
-                                            alt="...">
-                                        <figcaption class="figure-caption fs-6 text-white">Prozessorientiert</figcaption>
-                                    </figure>
-                                </div>
-                                <div class="col-xs-12 col-sm-4 text-center">
-                                    <figure class="figure">
-                                        <img src="assets/img/personlich.png" class="figure-img img-fluid" alt="...">
-                                        <figcaption class="figure-caption fs-6 text-white">Persönlich</figcaption>
-                                    </figure>
+                                <div class="col-md-12 col-lg-10">
+                                    <p class="card-text text-secondary fw-bold">Wir von derGartenBauer stehen mit Begeisterung dafür, die Natur wieder in Ihren Gärten erblühen zu lassen. Durch den <br>bewussten Einsatz von regionalen Produkten bieten wir ein nachhaltiges Gartenbaukonzept von höchster Qualität. </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-2">
-                            &nbsp;
+                    </div>
+                </div>
+                <div class="main main-figure">
+                    <div class="container container-card-figure bg-secondary">
+                        <div class="row card-figure justify-content-md-center">
+                            <div class="col-2" style="
+                            max-width:100px !important; /*para que empiece en la grilla de filosofia*/
+                            ">
+                                &nbsp;
+                            </div>
+                            <div class="col-8 justify-content-md-center">
+                                <div class="row">
+                                        <div class="col-xs-12 col-sm-3 col-lg-4 text-center">
+                                            <figure class="figure">
+                                                <img src="assets/img/naturbelassen.png" class="figure-img img-fluid" alt="Naturbelassen">
+                                                <figcaption class="figure-caption text-white">Naturbelassen</figcaption>
+                                            </figure>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-3 col-lg-4 text-center">
+                                            <figure class="figure ">
+                                                &nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/img/prozessorientliert.png" class="figure-img img-fluid"
+                                                    alt="Prozessorientiert">
+                                                <figcaption class="figure-caption text-white">Prozessorientiert</figcaption>
+                                            </figure>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-3 col-lg-4 text-center">
+                                            <figure class="figure">
+                                                <img src="assets/img/personlich.png" class="figure-img img-fluid" alt="Persönlich">
+                                                <figcaption class="figure-caption text-white">Persönlich</figcaption>
+                                            </figure>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                &nbsp;
+                            </div>
                         </div>
                     </div>
-                    <br />
-                    <h5 class="text-primary px-4 fs-2 fw-bold">The Team Bauer</h5>
-                    <br />
-                    <br />
+                </div>
+                <div class="main main-team bg-light">
+                    <h5 class="card-title text-primary fw-bold">The Team Bauer</h5>
                     <div class="container">
                         <div class="row justify-content-md-center">
                             <div class="col-sm-12 col-lg-4 p-3 mycard">
@@ -121,8 +119,8 @@
                                     <img src="assets/img/memberteam.png" class="mx-auto d-block" alt="The Team Bauer" />
                                     <div class="card-body">
                                         <h5 class="text-secondary fw-bold">Jannik Hechtl</h5>
-                                        <h6 class="text-secondary fw-bold">Gartenbaugeselle</h6>
-                                        <span class="text-primary fw-bold">Natursteinspezialist</span>
+                                        <h6 class="text-secondary">Gartenbaugeselle</h6>
+                                        <p class="text-primary fw-bold">Natursteinspezialist</p>
                                     </div>
                                 </div>
                             </div>
@@ -131,8 +129,8 @@
                                     <img src="assets/img/memberteam.png" class="mx-auto d-block" alt="The Team Bauer" />
                                     <div class="card-body">
                                         <h5 class="text-secondary fw-bold">Dane Bauer</h5>
-                                        <h6 class="text-secondary fw-bold">Gartenbaumeister Techniker funcion</h6>
-                                        <span class="text-primary fw-bold">Baumpfleger SKT A AS  Baum 1 carrera profesional</span>
+                                        <h6 class="text-secondary">Gartenbaumeister <br>Techniker funcion</h6>
+                                        <p class="text-primary fw-bold">Baumpfleger SKT A AS<br/>Baum 1 carrera profesional</p>
                                     </div>
                                 </div>
                             </div>
@@ -140,30 +138,39 @@
                                 <div class="card text-center">
                                     <img src="assets/img/memberteam.png" class="mx-auto d-block" alt="The Team Bauer" />
                                     <div class="card-body">
-
                                         <h5 class="text-secondary fw-bold">Xaver Briglmeier</h5>
-                                        <h6 class="text-secondary fw-bold">Gartenbauer</h6>
-                                        <span class="text-primary fw-bold">Organisationstalent</span>
+                                        <h6 class="text-secondary">Gartenbauer</h6>
+                                        <p class="text-primary fw-bold">Organisationstalent</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="main main-gallery">
                     <div class="container">
-                        <div class="row">
-                            <div class="col-md-4 p-3 ">
-                                <img src="assets/img/paisaje.jpeg" class="img-fluid" alt="The Team Bauer" />
+                        <div class="row justify-content-md-center">
+                            <div class="col-sm-12 col-lg-4 p-3 mycard">
+                                <div class="card text-end">
+                                    <img src="assets/img/paisaje.jpeg" class="img-fluid " alt="The Team Bauer" />
+                                </div>
                             </div>
-                            <div class="col-md-4 p-3 ">
-                                <img src="assets/img/paisaje.jpeg" class="img-fluid" alt="The Team Bauer" />
+                            <div class="col-sm-12 col-lg-4 p-3 mycard">
+                                <div class="card text-center">
+                                    <img src="assets/img/paisaje.jpeg" class="img-fluid " alt="The Team Bauer" />
+                                </div>
                             </div>
-                            <div class="col-md-4 p-3 ">
-                                <img src="assets/img/paisaje.jpeg" class="img-fluid" alt="The Team Bauer" />
+                            <div class="col-sm-12 col-lg-4 p-3 mycard">
+                                <div class="card text-start">
+                                    <img src="assets/img/paisaje.jpeg" class="img-fluid " alt="The Team Bauer" />
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div><!-- end main -->
-                <?php include("footer.php");?>
+                </div>
+                
+                    <?php include("footer.php");?>
+                
             </div>
         </div>
     </div>

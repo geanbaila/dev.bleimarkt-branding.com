@@ -1,4 +1,5 @@
-<footer class="footer">
+<div class="main main-footer">
+                <footer class="footer">
                     <div class="row">
                         <div class="col-6 text-primary">&nbsp;</div>
                         <div class="col-6 text-secondary">&nbsp;</div>
@@ -42,3 +43,4 @@
                         </div>
                     </div>
                 </footer>
+</div>
