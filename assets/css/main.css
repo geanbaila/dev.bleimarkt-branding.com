@@ -186,21 +186,50 @@
 
 }
 
+
+.footer .row{
+  margin: 0px !important;
+}
 .footer .row:first-child{
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 30px !important;
+    margin-bottom: 20px !important;
 }
 .footer .row:first-child div:first-child{
-    border-top:2px solid #8b8172 !important;
+    border-top: 2px solid #8b8172 !important;
 }
 .footer .row:first-child div:last-child{
-    border-top:2px solid #A9CEA2 !important;
+    border-top: 2px solid #A9CEA2 !important;
 }
 .footer > .row:nth-child(3){
     margin-top: 20px;
+    font-size: 12px;
 }
 
+.footer .card-title{
+  padding-left: 24px;
+  font-size: 29.5px;
+  font-family: "poppins-bold";
+  font-stretch: ultra-condensed;  
+  transform: scaleY(1.09);
+}
 
+.footer .card-title2{
+  padding-left: 0px;
+  margin-left: -12px;
+  font-size: 29.5px;
+  font-family: "poppins-bold";
+  font-stretch: ultra-condensed;  
+  transform: scaleY(1.09);
+}
+
+.footer .mycard {
+  width: 327px;
+  height: 100%;
+  min-height: 250px;
+  margin: 60px 0px;
+  padding: 0px 13px !important;
+  background: gray;
+}
 
 .menu2{
   width: auto;

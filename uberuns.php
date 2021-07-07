@@ -8,8 +8,8 @@
     <meta name="generator" content="">
     <title>Der Garten Bauer</title>
     <link href="assets/css/bootstrap.css?v=3" rel="stylesheet" />
-    <link href="assets/css/menu.css?v=1" rel="stylesheet" />
-    <link href="assets/css/main.css?v=1" rel="stylesheet" />
+    <link href="assets/css/menu.css?v=1.1" rel="stylesheet" />
+    <link href="assets/css/main.css?v=1.1" rel="stylesheet" />
 
 </head>
 <body>
@@ -111,8 +111,7 @@
                     </div>
                 </div>
                 <div class="main main-team bg-light">
-                    <h5 class="card-title text-primary fw-bold">The Team Bauer</h5>
-                    <div class="container">
+                    <h5 class="card-title text-primary fw-bold">The Team Bauer</h5><!-- luego poner un container y ajustar-->
                         <div class="row justify-content-md-center">
                             <div class="col-sm-12 col-lg-4 p-3 mycard">
                                 <div class="card text-center">
@@ -145,10 +144,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
                 <div class="main main-gallery">
-                    <div class="container">
                         <div class="row justify-content-md-center">
                             <div class="col-sm-12 col-lg-4 p-3 mycard">
                                 <div class="card text-end">
@@ -166,11 +163,10 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
-                
+                <div class="main main-footer">
                     <?php include("footer.php");?>
-                
+                </div>
             </div>
         </div>
     </div>
