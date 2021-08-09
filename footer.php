@@ -1,12 +1,11 @@
-                <div class="footer">
+<footer class="footer">
                     <div class="row">
-                        <div class="col-5 text-primary">&nbsp;</div>
-                        <div class="col-7 text-secondary">&nbsp;</div>
+                        <div class="col-6 text-primary">&nbsp;</div>
+                        <div class="col-6 text-secondary">&nbsp;</div>
                     </div>
-                    
                     <div class="row">
                         <div class="col-sm-12 col-lg-8">
-                            <h4 class="card-title text-primary fw-bold">Kontakt</h4>
+                            <h4 class="text-primary fw-bold">Kontakt</h4>
                             <div class="row text-secondary">
                                 <div class="col-6">
                                     <p>Dane Bauer</p>
@@ -25,7 +24,7 @@
                             </div>
                         </div>
                         <div class="col-sm-12 col-lg-4">
-                            <h4 class="card-title2 text-primary fw-bold">Flogen Sie uns</h4>
+                            <h4 class="text-primary fw-bold">Flogen Sie uns</h4>
                             <div class="row">
                                 <div class="col p-3">
                                     <img src="assets/img/instagram.png" title="instagram" />
@@ -38,8 +37,8 @@
                     </div>
                     <div class="row bg-secondary text-white" >
                         <div class="col p-3 align-self-center text-center">
-                            <span class="align-middle">&copy; Bleimarkt | Nerida Gallegos | +51 959759632
+                            <span class="fs-6 align-middle">&copy; Bleimarkt | Nerida Gallegos | +51 959759632
                                 (WhatsApp)</span>
                         </div>
                     </div>
-                </div>
+                </footer>

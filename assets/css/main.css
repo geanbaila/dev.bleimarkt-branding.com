@@ -1,122 +1,66 @@
-.row >* {
-    padding-right:0px !important;
-    padding-left:0px !important;
-}
-.main{
-    margin: 0px 0px 0px 216px !important;
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body{
+    font-family: "Raleway";
+    font-size: .875rem;
 }
 
+#headerMenu{
+    width: 100%;
+    box-shadow: 0 .3rem rgba(0,0,0,.15) !important;
+}
+#headerMenu ul li{
+    border-top: 2px solid #A9CEA2;
+}
+#headerMenu ul li:hover, #headerMenu ul li.active{
+    border-top: 6px solid #A9CEA2;
+}
+#headerMenu ul{
+    padding-top: 20px;
+    margin-bottom: 10px;
+    height: 60px;
+}
+.header-menu{
+  display: none;
+}
+@media (max-width: 700px) {
+  #headerMenu{
+    display: none;
+  }
+  .header-menu{
+    display: block;
+  }
+}
+ 
+#sidebarMenu{
+    border: 3px solid#A9CEA2 ;
+    overflow-y: auto;
+}
 
-
-#card-uberuns{
-  border: 0px;
-  line-height: 22px;
-}
-#card-uberuns .card-body{
-  padding-left: 47px;
-  padding-right: 45px;
-}
-#card-uberuns .card-body .card-title{
-  padding-top: 12px;
-  font-size: 29.5px;
-  font-family: "poppins-bold";
-  font-stretch: ultra-condensed !important;
-  transform: scaleY(1.09);
-}
-#card-uberuns .card-body .card-text{
-  margin-top:20.5px;
-  font-size: 13.3px;
-  font-family: "raleway-medium";
-  font-stretch: ultra-condensed;  
-  transform: scaleY(1.09);
-}
-#card-uberuns .card-body .card-text p:last-child{
-  margin-top: 22px;
-}
-@media (min-width: 1220px) {
+@media (min-width: 1020px) {
     #card-uberuns{
-      width: 400px;
-      height: 414px;
-      position: absolute !important;
-      margin: -499px 40px 0px 582px !important;
+        position: absolute !important;
+        margin: -520px 40px 0px 580px !important;
     }
     .downCard{
         /*background-color: gray !important;*/
-        margin: 130px 0px 53px 0px !important;
+        margin: 100px 0px !important;
     }
 }
-@media (max-width: 1000px) {
+@media (max-width: 992px) {
   #card-uberuns{
     position: relative;
     margin-top: -40px;
     margin-bottom: 40px;
-    
   }
 }
 
-.ean-rounded{
-  border-radius: 0px 20px 20px 20px;
-}
- 
-
-
-.container-card-philosopie,.main-philosopie{
-  background-color:#F4F4F4;
-}
-
 .card-philosopie{
-    height: 122px;
-    margin-top: 21px;
-    padding-left: 24px;
-    padding-top: 48px;
-    
-}
-.card-philosopie .card-title{
-  font-size: 29.5px;
-  font-family: "poppins-bold";
-  font-stretch: ultra-condensed;  
-  transform: scaleY(1.09);
-}
-.card-philosopie .card-text{
-  font-size: 13.3px;
-  font-family: "raleway-medium";
-  font-stretch: ultra-condensed;  
-  transform: scaleY(1.09);
-  padding-left: 22px;
+    background-color: #F4F4F4;
 }
 
-
-.main-figure, .container-card-figure{
-  background-color: #8b8172;
+.ean-rounded{
+    border-radius: 0px 20px 20px 20px;
 }
-.card-figure{
-  margin-top: 42px;
-  /*margin-left: 230px; /*parche*/
-  
-}
-.container-card-figure .figure-caption{
-  font-size: 14px;
-  font-family: "raleway-medium";
-  margin-bottom: 17px;
-}
-.container-card-figure img{
-  margin-top:37px;
-}
-
-
-
-.main-team{
-  padding-left: 24px;
-}
-.main-team .card-title{
-  font-size: 29.5px;
-  font-family: "poppins-bold";
-  font-stretch: ultra-condensed;  
-  transform: scaleY(1.09);
-  margin-top: 60px;
-  margin-bottom: 46px;
-}
-
 
 .ean-card{
     background-color: #f4f4f4;
@@ -128,108 +72,45 @@
     height: 240px;
 }
 
-.main-team .mycard{
-    width: 327px;
+.mycard{
     height: 100%;
     min-height: 250px;
+    /*border: 2px solid #A9CEA2;*/
     margin: 60px 0px;
-    padding: 0px 13px !important;
-    
 }
-.main-team .mycard .card{
+.mycard .card{
     border-radius: 0px 20px 20px 20px;
     background-color: #F4F4F4;
-    border: 0px;
-    height: 322px;
 }
-.main-team .mycard img{
-    margin-top: -50px;
+.mycard img{
+    margin-top: -80px;
     width: 200px;
     height: 200px;
 }
-.main-team .mycard .card-body h5{
-  font-size: 25px;
-  font-family: "raleway-bold";
-}
-.main-team .mycard .card-body h6{
-  font-size: 19px;
-  margin-top: -6px;
-  font-family: "raleway-medium";
-}
-.main-team .mycard .card-body p{
-  font-size: 13px;
-  margin-top: -8px !important;
-  font-family: "raleway-bold";
-  line-height: 22px;
-}
 
-.main-gallery{
-  padding-left: 24px;
-}
-.main-gallery img{
-  width: 327px;
-}
-.main-gallery .mycard{
-  width: 327px;
-  height: 100%;
-  padding: 0px 13px !important;
-}
-.main-gallery .mycard .card{
-  border: 0px;
-}
-  
 
 .section-contact{
     background-color: #F4F4F4;
-    height: auto;
+    height: 200px;
     padding: 20px 0px;
 
 }
 
-
-.footer .row{
-  margin: 0px !important;
-}
 .footer .row:first-child{
-    margin-top: 30px !important;
-    margin-bottom: 20px !important;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .footer .row:first-child div:first-child{
-    border-top: 2px solid #8b8172 !important;
+    border-top:2px solid #8b8172 !important;
 }
 .footer .row:first-child div:last-child{
-    border-top: 2px solid #A9CEA2 !important;
+    border-top:2px solid #A9CEA2 !important;
 }
 .footer > .row:nth-child(3){
     margin-top: 20px;
-    font-size: 12px;
 }
 
-.footer .card-title{
-  padding-left: 24px;
-  font-size: 29.5px;
-  font-family: "poppins-bold";
-  font-stretch: ultra-condensed;  
-  transform: scaleY(1.09);
-}
 
-.footer .card-title2{
-  padding-left: 0px;
-  margin-left: -12px;
-  font-size: 29.5px;
-  font-family: "poppins-bold";
-  font-stretch: ultra-condensed;  
-  transform: scaleY(1.09);
-}
-
-.footer .mycard {
-  width: 327px;
-  height: 100%;
-  min-height: 250px;
-  margin: 60px 0px;
-  padding: 0px 13px !important;
-  background: gray;
-}
 
 .menu2{
   width: auto;
@@ -240,19 +121,96 @@
 
 .menu2 div:last-child li>a{
   border-bottom:2px solid #A9CEA2;
+  
 }
 
 
-/*
-.accordion-button:not(.collapsed){
-  -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.125) !important;
-  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.125) !important;
-}
-#accordionPanelsStayOpenExample{
-  border:0px solid transparent !important;
-}*/
-.accordion-item {
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(169, 206, 162, 0.15) !important;
-  box-shadow: 0 0.5rem 1rem rgba(169, 206, 162, 0.15) !important;
-}
 
+
+  .feather {
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+  }
+  
+  /*
+   * Sidebar
+   */
+
+  .sidebar {
+    position: fixed;
+    padding: 48px 0 0; 
+    z-index: 100; 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    /*box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);*/
+ 
+  }
+
+  @media (max-width: 767.98px) {
+    .sidebar {
+      top: 3rem;
+    }
+    #navbar-brand{
+      background-color: transparent !important;
+      border: 0px solid transparent !important;
+    }
+  }
+  #navbar-brand{
+    border: 15px solid #A9CEA2;
+  }
+  
+  .sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  }
+  
+  .sidebar .nav-link {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .sidebar .nav-link .feather {
+    margin-right: 4px;
+    color: #727272;
+  }
+  
+  .sidebar .nav-link.active {
+    color: #2470dc;
+  }
+  
+  .sidebar .nav-link:hover .feather,
+  .sidebar .nav-link.active .feather {
+    color: inherit;
+  }
+  
+  .sidebar-heading {
+    font-size: .75rem;
+    text-transform: uppercase;
+  }
+  
+  /*
+   * Navbar
+   */
+  
+  /*
+  .navbar-brand {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, .25);
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+  }
+  
+  */
+  .navbar .navbar-toggler {
+    /*top: .25rem;
+    right: 1rem;*/
+    border: 0px solid transparent;
+  }
+  

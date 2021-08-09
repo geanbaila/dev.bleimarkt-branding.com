@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="de">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,10 +7,10 @@
     <meta name="author" content="">
     <meta name="generator" content="">
     <title>Der Garten Bauer</title>
-    <link href="assets/css/bootstrap.css?v=2.3" rel="stylesheet" />
-    <link href="assets/css/main.css?v=1.1" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="assets/css/bootstrap.css?v=1" rel="stylesheet" />
+    <link href="assets/css/main.css?v=1" rel="stylesheet" />
 </head>
-
 <body>
 
     <?php include("header.php");?>
@@ -102,7 +101,6 @@
                             
                     </div>
                 </main>
-                
                 <?php include("footer.php");?>
             </div>
         </div>

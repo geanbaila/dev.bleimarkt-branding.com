@@ -7,8 +7,13 @@
     <meta name="author" content="">
     <meta name="generator" content="">
     <title>Der Garten Bauer</title>
-    <link href="assets/css/bootstrap.css?v=3" rel="stylesheet" />
-    <link href="assets/css/main.css?v=3" rel="stylesheet" />
+    <!-- Bootstrap CSS 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    -->
+    <!-- Custom styles for this template -->
+    <link href="assets/css/bootstrap.css?v=2" rel="stylesheet" />
+    <link href="assets/css/main.css?v=2" rel="stylesheet" />
 
  
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet" />
